@@ -16,7 +16,6 @@ body {
   font-family: "Spartan", sans-serif;
   background-color: #3a4764;
   transition: all 0.2s ease-in-out;
-  overflow: hidden;
 }
 
 .app {
