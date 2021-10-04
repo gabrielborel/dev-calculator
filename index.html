@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/05d5a76bfd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>calc</title>
+    
+</head>
+<body>
+    
+    <div class="app">
+
+        <div class="header">
+
+            <h1 class="header-title">calc</h1>
+
+            <div class="theme-switcher">
+                <p class="theme">THEME</p>
+                <div class="switchers">
+                    <div class="numbers">
+                        <label for="theme1">1</label>
+                        <label for="theme2">2</label>
+                        <label for="theme3">3</label>
+                    </div>
+                    <div class="buttons">
+                        <input type="radio" id="theme1" name="theme" checked>
+                        <input type="radio" id="theme2" name="theme" >
+                        <input type="radio" id="theme3" name="theme" >
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="visor">
+            <p class="history"></p>
+            <p class="result"></p>
+            <p class="temporary"></p>
+        </div>
+
+        <div class="input">
+            <button class="btn number" id="7">7</button>
+            <button class="btn number" id="8">8</button>
+            <button class="btn number" id="9">9</button>
+            <button class="btn delete" id="backspace">DEL</button>
+            <button class="btn number" id="4">4</button>
+            <button class="btn number" id="5">5</button>
+            <button class="btn number" id="6">6</button>
+            <button class="btn operator" id="+">+</button>
+            <button class="btn number" id="1">1</button>
+            <button class="btn number" id="2">2</button>
+            <button class="btn number" id="3">3</button>
+            <button class="btn operator" id="-">-</button>
+            <button class="btn number" id=".">.</button>
+            <button class="btn number" id="0">0</button>
+            <button class="btn operator" id="/">/</button>
+            <button class="btn operator" id="X">X</button>
+            <button class="btn reset" id="clear">RESET</button>
+            <button class="btn equal" id="="> = </button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p class="credits">Developed with <i class="fas fa-heart"></i> by <a href="https://github.com/gabrielborel">Gabriel Borel</a></p>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
