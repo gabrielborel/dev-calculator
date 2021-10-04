@@ -25,10 +25,8 @@ body {
 
 .app {
     width: 100%;
-    height: calc(100% - 42.60px);
     padding: 1.5rem;
     @include font;
-    overflow: hidden;
     max-width: 700px;
     max-height: 650px;
 
