@@ -25,17 +25,15 @@ body {
 
 .app {
     width: 100%;
-    height: calc(100% + 42.60px);
+    height: calc(100% - 42.60px);
     padding: 1.5rem;
     @include font;
     overflow: hidden;
     max-width: 700px;
     max-height: 650px;
 
-    @media (min-height: 900px) {
-        .app {
-            margin-top: 4rem;
-        }
+    @media (min-height: 700px) {
+        margin-top: 4rem;
     }
 
     .header {
